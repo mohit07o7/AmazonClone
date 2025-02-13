@@ -1,0 +1,272 @@
+*{
+    margin: 0%;
+    font-style: Arial;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color: rgb(248, 247, 247);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+
+}
+
+.logo {
+    justify-content: flex-start;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    padding-right: 2px;
+
+    background-image: url(/images/amazon_logo.png);
+    
+
+}
+.border{
+    border: 1px solid transparent;
+
+
+}
+.border:hover{
+    border: 0.5px solid white;
+}
+.a{
+    color: #cccccc;
+    font-size: small;
+    width: 60px;
+    margin-left: 0px;
+    padding: 0%;
+
+
+}
+.b{
+    margin-left: 2px;
+
+}
+.add-icon{
+    display: flex;
+
+
+}
+.nav-add{
+    margin: 5px 2px 5px 3px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*search bar*/
+.nav-search {
+    border-radius: 5px;
+    border-style: double;
+    margin-left: 3px;
+    display: flex;
+    height: 40px;
+    width: 900px;
+    background-color: rgb(241, 241, 238);
+    justify-content: space-around;
+
+    
+}
+/*search icon*/
+.icon{
+
+    width: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+.w{
+border-radius: 5px;
+
+}
+.q{
+
+    font-size: 15px;
+    width: 980px;
+    margin: 0%;
+    border: none;
+}
+.hello{
+    color: white;
+}
+.a1{
+    font-size: 12px;
+}
+.a2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+}
+.aa1{
+    font-size: 12px;
+}
+.aa2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+}
+.cart i{
+    font-size: 35px;
+}
+.cart{
+    display: flex;
+    font-size: 16px;
+    justify-content: baseline;
+    align-items: baseline;
+    font-weight: 700;
+}/* nav2*/
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: #222f3d;
+}
+.panel{
+
+    color: white;
+}
+.panelop{
+    width: 95%;
+
+}
+.panelop p{
+ font-size: 16px;
+ font-weight: 700;
+ margin-left: 15px;
+    display: inline;
+    justify-content: space-evenly;
+}
+.herosection{
+    background-image: url(images/hero_image.jpg);
+    height: 330px;
+    width: 1500px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+
+}
+.smallsec{
+    background-color: white;
+    height: 40px;
+width: 80%;
+    padding: 10px  14px;
+
+    justify-content: center;
+
+}
+.smallsec a{
+    color: #007185;
+}
+.imagesec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+
+    height: 400px;
+    width: 23%;
+    color: black;
+    justify-content: space-evenly;
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-top: 10px;
+
+    
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 9px;
+
+}
+.box-content{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.box-content p{
+    color: #2162A1;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 49px;
+    width: 1500px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+}
+ul h3{
+
+}
+ul a{
+    display: block;
+    font-size: 16.82px;
+    margin-top: 17px;
+
+}
+ul{
+    margin-top: 1px;
+    margin-bottom: 70px;
+}
+.foot-panel3{
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.1px  solid rgb(139, 139, 144);
+    height: 70px;
+
+}
+.logo1{
+    background-image: url("images/logoofamazon.png");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+
+}
+.foot-panel4{
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    font-size: 12px;
+}
+.asd{
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.aaa{
+    display: flex;
+    justify-content: center;
+}
